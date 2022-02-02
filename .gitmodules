@@ -1,3 +1,6 @@
 [submodule "ex3/external/glfw"]
 	path = ex3/external/glfw
 	url = https://github.com/glfw/glfw.git
+[submodule "ex4/external/glfw"]
+	path = ex4/external/glfw
+	url = https://github.com/glfw/glfw.git
