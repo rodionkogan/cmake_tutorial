@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include "Adder/adder.h"
+#include "adder.h"
 
 int main()
 {
