@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#include "Adder/adder.h"
+
 int main()
 {
     std::cout <<
@@ -11,4 +13,6 @@ int main()
         "-Multiple files\n"
         "-Libraries\n"
         "-Subfolders\n\n";
+
+    std::cout << "Number PI is " << add(1.05, 2.09) << "\n\n";
 }
