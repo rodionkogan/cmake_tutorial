@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.22.0)
 
-project(EX4 VERSION 1.0)
+project(ex4 VERSION 1.0)
 
 configure_file(ex4config.h.in ex4config.h)
 
-target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
-
 add_executable(${PROJECT_NAME} main.cpp)
+
+target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
 
 add_subdirectory(Adder)
 

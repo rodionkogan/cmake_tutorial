@@ -4,8 +4,9 @@
 #include <iostream>
 #include <GLFW/glfw3.h>
 #include "adder.h"
+#include "ex4config.h"
 
-int main()
+int main(int argc, char * argv[])
 {
     std::cout <<
         "CMake\n\n"
@@ -13,6 +14,8 @@ int main()
         "Versioning Source Code\n\n";
 
     std::cout << "Number PI is " << add(1.05, 2.09) << "\n\n";
+
+    std::cout << argv[0] << " Version: " << ex4_VERSION_MAJOR << "." << ex4_VERSION_MINOR << "\n";
 
     GLFWwindow * window;
 
